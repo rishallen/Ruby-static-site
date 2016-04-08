@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  /*min-height: 100%;*/
+  height: 100%;
 }
 .estyear p {
   text-align: center;
@@ -62,59 +62,34 @@ h1 {
   margin-bottom: 38px;
   font-size: 0.938rem;;
   color: #666666;
-  /*border-style: solid;
-  border-color: #FFFFF0;*/
 }
 
+.section1 div{
+    width: 30%;
+    height: 170px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 2% 0 2% 2.5%;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+}
 
-/*.flex_container1 {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  flex-flow: wrap;
-  /*justify-content: space-around;*/
-/*
-.flex_container2 {
-  /*display: -webkit-flex;
-  display: inline-flex;
+.section1 img {
+  float: left;
   width: 100%;
-  height: 100%;
-  /*list-style: none;
-  flex-flow: wrap;
-  /*justify-content: center;}*/
-
-/*.flex-item {
-  width: 100px;
-  height: 100px;
-  margin: 119px;
-  /*background: tomato;*/
-  /*padding: 50px;
-  width: 350px;
-  height: 350px;
-  margin-top: 90px;*/
-  /*line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;*/
-
-.section1 {
-  float: left;
-  margin: 50px;
-  width: 100px;
-  height: 100px;
 }
 
-.section2 {
+.section2 img {
   float: left;
-  margin: 50px;
-  width: 100px;
-  height: 100px;
+  margin-left: 2.5%;
+  width: 30%;
+  overflow: hidden;
+  max-height: 170px;
 }
 
 img {
-  width: 100%;
+
 }
 
 .aboutintro h2 {
@@ -173,12 +148,8 @@ img {
 }
 .picture2 {
   background-image: url("../images/flamingo.png");
-  /*border-radius: 50%;*/
-  /*width: auto;
-  max-width: 100%;
-  height: auto;*/
-  /*padding: 18px 0px 18px 45px;
-  margin: 30px 980px 30px 15%;*/
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .github1 a {
   text-decoration: none;
